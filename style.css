@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: block;
+    margin: auto;
+    width: 945px;
+}
+
+header {
+    position: sticky;
+}
+
+.header_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.header_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header_links li {
+    list-style: none;
+    font-family: "Open Sans-bold",sans-serif;
+}
+
+.header_links a {
+    font-family: "Gilroy-Bold", "Open Sans-bold" sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #828282;
+
+}
+
+.header_links li :hover {
+    color: #070707;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.header_content hr {
+    width: 940px;
+    color: #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.home_content {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.home_content h2 {
+    margin: 0;
+    font-family: "Gilroy-Bold","Open Sans-bold" sans-serif;
+    font-size: 47.3392px;
+    font-weight: bold;
+    line-height: 59px;
+    color: #070707;
+}
+
+.home_content p{
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Gilroy-Medium","Open Sans"  sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
