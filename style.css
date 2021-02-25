@@ -34,11 +34,11 @@ header {
 
 .header_links li {
     list-style: none;
-    font-family: "Open Sans-bold",sans-serif;
+    font-family: "Open Sans-bold", sans-serif;
 }
 
 .header_links a {
-    font-family: "Gilroy-Bold", "Open Sans-bold" sans-serif;
+    font-family: "Gilroy-Bold", "Open Sans-bold"sans-serif;
     font-size: 18px;
     line-height: 22px;
     text-decoration: none;
@@ -58,26 +58,193 @@ header {
     transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
+.home {
+    padding-bottom: 100px;
+}
+
 .home_content {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: flex-start;
+
 }
 
 .home_content h2 {
-    margin: 0;
-    font-family: "Gilroy-Bold","Open Sans-bold" sans-serif;
-    font-size: 47.3392px;
-    font-weight: bold;
+    font-family: "Gilroy-Bold", "Open Sans", sans-serif;
+    font-size: 47.5px;
     line-height: 59px;
-    color: #070707;
+    text-align: center;
+    margin: 0;
+
 }
 
-.home_content p{
+.home_content p {
+    padding-left: 350px;
     padding-top: 30px;
     text-align: center;
-    font-family: "Gilroy-Medium","Open Sans"  sans-serif;
+    font-family: "Gilroy-Medium", "Open Sans"sans-serif;
     font-size: 18px;
     line-height: 22px;
     color: #070707;
+}
+
+.about_me {
+    background-color: #F6F6F6;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.about_me_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_me_content h2 {
+    font-family: "Gilroy-Bold", "Open Sans", sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.about_me_content p {
+    font-family: "Gilroy-Medium", "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.skills {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.skills_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.skills_content h2 {
+    margin-top: 0;
+    font-family: "Gilroy-Bold", "Open Sans", sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.skills_content p {
+    font-family: "Gilroy-Medium", "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.programs_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.program figcaption {
+    font-family: "Gilroy-Bold", "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding-top: 23px;
+    padding-bottom: 20px;
+    color: #828282;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+    padding-top: 115px;
+}
+
+.portfolio h2 {
+    margin-top: 0;
+    padding-bottom: 50px;
+    font-family: "Gilroy-Bold", "Open Sans", sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.portfolio a {
+    display: block;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    margin: 0 auto 0 auto;
+    font-family: "Gilroy-Medium", "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+.contact {
+    padding-top: 115px;
+}
+
+.contact h2 {
+    font-family: "Gilroy-Bold", "Open Sans", sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.contact p {
+    font-family: "Gilroy-Medium", "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.contact button {
+    display: block;
+    margin: 25px auto 86px auto;
+    background-color: black;
+    color: white;
+    font-family: "Gilroy-Bold", "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px 35px 10px 35px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+}
+
+#first_element_social_media {
+    padding-left: 0;
+}
+
+.social_media img {
+    padding-left: 60px;
+    padding-bottom: 50px;
+}
+
+footer p {
+    font-family: "Gilroy-Medium", "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    padding-bottom: 125px;
+    color: #828282;
 }
