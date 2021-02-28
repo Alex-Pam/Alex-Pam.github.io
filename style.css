@@ -261,7 +261,7 @@ footer p {
     color: #828282;
 }
 
-@media(max-width: 760px) {
+@media(max-width: 800px) {
     .content {
         width: 310px;
     }
@@ -271,9 +271,7 @@ footer p {
     }
 
     .hamburger-menu {
-        display: flex;
-        justify-content: flex-start;
-        
+        display: block;
     }
 
     #menu__toggle {
@@ -302,7 +300,9 @@ footer p {
     .menu__btn {
         display: flex;
         align-items: center;
-        position:sticky;
+        position: fixed;
+        top: 50px;
+        left: 25px;
 
         width: 26px;
         height: 26px;
