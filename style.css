@@ -261,7 +261,7 @@ footer p {
     color: #828282;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 768px) {
     .content {
         width: 310px;
     }
