@@ -203,7 +203,24 @@ header {
     text-decoration-line: underline;
     color: #070707;
 }
-
+.levis{
+    background: url(img/levis.png);
+    width: 936.24px;
+    height: 522px;
+    background-size: cover;
+}
+.reebok{
+    background: url(img/reebok_web.png);
+    width: 936.24px;
+    height: 522px;
+    background-size: cover;
+}
+.braun{
+    background: url(img/braun.png);
+    width: 936.24px;
+    height: 522px;
+    background-size: cover;
+}
 .contact {
     padding-top: 115px;
 }
@@ -394,5 +411,33 @@ footer p {
         padding-left:0;
         padding-top: 0;
     }
-
+    .programs_img{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .stars{
+        padding-bottom: 30px;
+    }
+    .portfolio{
+        padding-top: 30px;
+    }
+    .levis{
+        background: url(img/levis.png);
+        width: 316px;
+        height: 176px;
+        background-size: cover;
+    }
+    .reebok{
+        background: url(img/reebok_web.png);
+        width: 316px;
+        height: 176px;
+        background-size: cover;
+    }
+    .braun{
+        background: url(img/braun.png);
+        width: 316px;
+        height: 176px;
+        background-size: cover;
+    }
 }
